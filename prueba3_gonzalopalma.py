@@ -75,7 +75,7 @@ def main():
     while True:
         print("\nBienvenido al sistema de registro de notas escolares")
         print("1. Registrar alumno")
-        print("2. Buscar alumno por nomnre")
+        print("2. Buscar alumno por nombre")
         print("3. Mostrar lista de estudiantes")
         print("4. Salir del programa")
 
