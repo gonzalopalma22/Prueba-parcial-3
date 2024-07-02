@@ -20,7 +20,7 @@ def guardar_datos(datos):
 def registro_alumno():
     nombre = input("Nombre alumno: ")
     apellido = input("Apellido: ")
-    matematica = float(input("Ingrese nota de Matematicas: "))
+    matematica = float(input("Ingrese nota de Matemáticas: "))
     ciencias = float(input("Ingrese nota de Lenguaje: "))
     historia = float(input("Ingrese nota de Historia: "))
 
@@ -30,7 +30,7 @@ def registro_alumno():
     alumno = {
         'nombre': nombre,
         'apellido' :apellido,
-        'matematica': matematica,
+        'matemática': matematica,
         'ciencias' :ciencias,
         'historia': historia,
         'promedio': promedio
@@ -56,7 +56,7 @@ def buscar_alumno():
         print(f"Promedio: {alumno['promedio']}")
     
     else:
-        print(f"No se encontro ningun alumno con ese nombre '{buscar_nombre}'.\n")
+        print(f"No se encontró ningun alumno con ese nombre '{buscar_nombre}'.\n")
 
 
 
@@ -69,7 +69,7 @@ def mostrar_lista_alumnos():
         for alumno in datos.values():
             print(f"{alumno['nombre']} {alumno['apellido']} - Promedio: {alumno['promedio']:.2f}")
     else:
-        print("No hay ningun alumno registrado.\n")
+        print("No hay ningún alumno registrado.\n")
     
 def main():
     while True:
